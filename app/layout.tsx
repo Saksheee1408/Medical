@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://joshimedical.com'),
   title: 'Joshi Medical Stores | Trusted Pharmacy in Dhad, Maharashtra',
   description: 'Joshi Medical Stores in Dhad provides a complete range of medicines and healthcare products with 4.7-star rated service. Visit us on Bazar Line Rd.',
   openGraph: {

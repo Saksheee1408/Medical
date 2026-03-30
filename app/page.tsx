@@ -8,6 +8,7 @@ import { HeroSection } from '@/components/sections/Hero';
 import { TrustBar } from '@/components/sections/TrustBar';
 import { ServicesSection } from '@/components/sections/Services';
 import { AboutSection } from '@/components/sections/About';
+import { StorySection } from '@/components/sections/Story';
 import { GallerySection } from '@/components/sections/Gallery';
 import { CTABand } from '@/components/sections/CTABand';
 import { ContactSection } from '@/components/sections/Contact';
@@ -61,6 +62,8 @@ export default function Home() {
       <ServicesSection />
 
       <AboutSection />
+
+      <StorySection />
 
       <GallerySection />
 
