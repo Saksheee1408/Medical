@@ -22,7 +22,7 @@ export function StorySection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 <div className="absolute bottom-12 left-12">
                   <p className="text-white/60 text-sm font-bold uppercase tracking-[0.3em] mb-2">Our Founder</p>
-                  <h4 className="text-3xl font-bold text-white italic">Late. Digambar Vasudev Joshi</h4>
+                  <h4 className="text-3xl font-bold italic" style={{ color: 'var(--color-accent)', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>Late. Digambar Vasudev Joshi</h4>
                 </div>
               </div>
               
@@ -45,7 +45,7 @@ export function StorySection() {
             <div className="space-y-8 text-xl font-light text-gray-600 leading-relaxed italic">
               <p className="relative">
                 <span className="absolute -left-8 -top-4 text-7xl text-primary/10 font-serif overflow-hidden h-12">"</span>
-                The story of Joshi Medical Stores is one of perseverance and vision. Our father, <span className="font-bold text-primary not-italic" style={{ color: 'var(--color-primary)' }}>Late. Digambar Vasudev Joshi</span>, was the pioneer who recognized the need for professional healthcare in the Dhad circle.
+                The story of Joshi Medical Stores is one of perseverance and vision. Our father, <span className="font-bold not-italic" style={{ color: 'var(--color-accent)' }}>Late. Digambar Vasudev Joshi</span>, was the pioneer who recognized the need for professional healthcare in the Dhad circle.
               </p>
               <p className="not-italic">
                 He established the first-ever medical store in the region in the <span className="font-bold">1950s</span>, laying a foundation of integrity that has lasted for generations.
